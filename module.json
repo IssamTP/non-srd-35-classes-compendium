@@ -1,0 +1,44 @@
+{
+  "id": "non-srd-35-classes-compendium",
+  "title": "Non-SRD 3.5 classes compendium",
+  "version": "2026.11.17",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Un elenco omnicomprensivo di tutte le classi non-SRD per Dungeons &amp; Dragons 3.5</p>",
+  "authors": [
+    {
+      "name": "Massimiliano Marcianesi",
+      "email": "salva.credenziali@gmail.com",
+      "discord": "IssamTP",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "non-srd-35-classes-compendium",
+      "label": "Non-SRD 3.5 classes compendium",
+      "path": "packs/non-srd-35-classes-compendium",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "D35E",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "D35E",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
